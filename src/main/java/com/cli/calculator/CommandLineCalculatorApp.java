@@ -43,7 +43,7 @@ public class CommandLineCalculatorApp {
             }
             try{
                 Result result = commandName.execute(command);
-                System.err.println(result.getMessage() + result.getResult());
+                System.out.println(result.getMessage() + result.getResult());
             }catch(Exception ex){
                 System.err.println(ex.getMessage());
             }
