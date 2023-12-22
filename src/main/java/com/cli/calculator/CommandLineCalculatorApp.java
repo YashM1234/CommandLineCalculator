@@ -1,6 +1,5 @@
 package com.cli.calculator;
 
-
 import com.cli.calculator.command.Command;
 import com.cli.calculator.command.operation.*;
 import com.cli.calculator.model.Result;
